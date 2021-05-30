@@ -8,43 +8,18 @@ public class ChristmasSong {
 
         do {
             switch (userPrompt) {
-
-                case 1:
-                    day = "first day";
-                    break;
-                case 2:
-                    day = "second day";
-                    break;
-                case 3:
-                    day = "Third day";
-                    break;
-                case 4:
-                    day = "Fourth day";
-                    break;
-                case 5:
-                    day = "Fifth day";
-                    break;
-                case 6:
-                    day = "Sixth day";
-                    break;
-                case 7:
-                    day = "Seventh day";
-                    break;
-                case 8:
-                    day = "Eight day";
-                    break;
-                case 9:
-                    day = "Ninth day";
-                    break;
-                case 10:
-                    day = "Tenth day";
-                    break;
-                case 11:
-                    day = "Eleventh day";
-                    break;
-                case 12:
-                    day = "Twelfth day";
-                    break;
+                case 1 -> day = "first day";
+                case 2 -> day = "second day";
+                case 3 -> day = "Third day";
+                case 4 -> day = "Fourth day";
+                case 5 -> day = "Fifth day";
+                case 6 -> day = "Sixth day";
+                case 7 -> day = "Seventh day";
+                case 8 -> day = "Eight day";
+                case 9 -> day = "Ninth day";
+                case 10 -> day = "Tenth day";
+                case 11 -> day = "Eleventh day";
+                case 12 -> day = "Twelfth day";
             }
             System.out.printf("on the %s of christmas my true love gave to me%n", day);
 
