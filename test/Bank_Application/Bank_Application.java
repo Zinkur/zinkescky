@@ -29,6 +29,13 @@ public class Bank_Application {
     public void testThatICanWithdrawFromAccount(){
         myBank_Phb = new Bank_App("zinkur","samuel",50000.00);
         myBank_Phb.deposit(200);
+        System.out.println(myBank_Phb.getBalance());
         assertEquals(50200,myBank_Phb.getBalance());
+    }
+    @Test
+    public void testThatICanDeposit(){
+        myBank_Phb = new Bank_App("zinkur", "samuel", 50200);
+        myBank_Phb.getDeposit(20000);
+        assertEquals("zinkur", "samuel",70200 );
     }
 }

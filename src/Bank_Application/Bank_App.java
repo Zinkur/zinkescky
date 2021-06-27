@@ -30,4 +30,10 @@ public class Bank_App {
         }
         return balance += deposit;
     }
+
+    public double getDeposit(double deposit) {
+        if (deposit < 1){
+        return 0.0;
+
+            }
 }
